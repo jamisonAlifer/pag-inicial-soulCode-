@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: Poppins;
+}
+.navbar{
+    background-color: #186370;
+  
+}
+.nav-link{
+   color: white;
+}
+main{
+    background-image: url("https://soulcodeacademy.org/assets/images/about/about01/about1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 90% 50%;
+    height: 550px;
+    background-color: #186370;
+}
+.content{
+    margin-left: 20px;
+    padding: 20px;
+    width: 50%;
+    height: 350px;
+}
+
+.content h4{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 1.2em;
+}
+
+.content p{
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+.btn{
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: rgb(223, 190, 2);
+    padding: 10px;
+    width: 250px;
+    height: 55px;
+
+}
+.titulo-cursos{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.titulo-cursos h4{
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(29, 38, 117);
+
+}.titulo-cursos p{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.384);
+}
+.cards{
+    display: flex;
+    justify-content:space-between;
+}
+.card1{
+    background-image: url("https://www.iransanches.com.br/wp-content/uploads/2021/04/mulher_negra_sorrindo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% ;
+    background-color: #186370;
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 20px;
+}
+.card1 h4{
+    color: rgb(224, 197, 42);
+    padding: 10px;
+}
+.card1 p{
+    color: white;
+    width: 300px;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
+.card2{
+    background-image: url("https://images.vexels.com/media/users/3/153156/isolated/lists/9ce84f06c10bdd87608f48fc2e599661-icone-de-computador-para-jogos.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% ;
+    background-color: rgb(223, 190, 2);
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 30px;
+    margin-right: 20px;
+}
+.card1 .btn{
+    width: 300px;
+    font-weight: bold;
+}
+.text-card2, .text-card1{
+    align-self: center;
+    justify-self: center;
+    padding: 20px;
+}
+.card2 .btn{
+    width: 150px;
+    background-color: rgb(6, 139, 156);
+    color: white;
+}
+.card2 p{
+    color: white;
+    width: 300px;
+    font-size: 0.9em;
+    padding: 10px;
+}
+.card2 h4{
+    color: rgb(5, 83, 185);
+    font-weight: bold;
+    padding: 10px;
+}
+footer{
+    background-color: #186370;
+    margin-top: 200px;
+    height: 200px;
+    text-align: center;
+}
+footer p{
+    margin-top: 50px;
+    color: white;
+}
+a:last-child { 
+    color: rgb(245, 215, 45);
+    margin-left: 50px;
+  
+
+}
+.nav-link:hover .active{
+    color: white;
+}
+@media screen and (max-width: 1190px) {
+    .cards{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .card1, .card2{
+        margin: 0 0 20px 0;
+    }
+    main{
+        flex-wrap: wrap;
+    }
+    a:last-child { 
+        margin: 0;
+    
+    }
+}
+@media screen and (max-width: 700px) {
+    main{
+        height: 730px;
+        background-position: 0% 80%;
+        text-align: center;
+    }
+    .content{
+        margin-left: 30px;
+    }
+    .content p{
+      
+        width: 300px;
+        font-size: 1.7em;
+        margin: 0;
+    }
+    .content h4{
+        margin: 0;
+        width: 300px;
+        font-size: 1em;
+    }
+    .content button{
+        margin:20px 0 0 30px;
+    }
+    .navbar-brand, .navbar-nav{
+        margin: 0;
+    }
+    .card1{
+        background-position: 100% 100%;
+    }
+    
+}
